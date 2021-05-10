@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181D29;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root, .full-height {
+  height: 100%;
+}
+
+#navbar {
+  background: none;
+}
+
+#movie-search {
+  background: #4F6692;
+  border-color: #4F6692;
+}
+
+.ant-select-show-search {
+  width: 100%;
+}
+
+.text-white, h4.ant-list-item-meta-title, div.ant-list-item-meta-description {
+  color: white;
+}
+
+.background {
+  background: #181D29;
+}
+
+.light-bg {
+  background: #33405A;
+}
+
+ul.ant-menu.ant-menu-dark.ant-menu-root.ant-menu-horizontal {
+  background: #33405A;
+}
+
+.section-panel {
+  margin: 25px 10px;
+  color: #FFFFFFA6;
+  border-radius: 10px;
+}
+
+.padding-sm {
+  padding: 10px 20px;
+}
+
+.margin-top-lg {
+  margin-top: 30px;
+}
+
+.margin-top-xl {
+  margin-top: 60px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ant-carousel .text-center img {
+  display: inline-block;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: white;
+  font-size: unset;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: unset;
+}
+
+.ant-carousel .slick-prev {
+  left: 5px;
+}
+
+.ant-carousel .slick-next {
+  right: 5px;
+}
